@@ -1,5 +1,5 @@
 # Mobile-Computing-EELRU-Cache-Replacement-Policy
-EELRU Cache Policy
+Early Eviction - LRU Cache Policy
 
 Cache replacement policy plays a vital role to improve the performance in a cached mobile environment, since the amount of data stored in a client cache is small.
 
