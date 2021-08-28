@@ -10,7 +10,7 @@ In the case of LRU fails in packets it recently expelled, EELRU recognizes it an
 
 ## Experiment
 | Number of Packets | Cache Size |
-| :---              |       ---: |
+|       :---        |    ---:    |
 |        512        |     64     |
 |        768        |     168    |
 |        1024       |     256    |
