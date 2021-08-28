@@ -9,7 +9,8 @@ The idea behind this algorithm is to improve the performance of the LRU cache re
 In the case of LRU fails in packets it recently expelled, EELRU recognizes it and instead of expelling the LRU packet, does an "early eviction", by expelling a packet that we recently referenced from the LRU, in the hope that by keeping the older packets, they will be referenced again soon.
 
 ## Experiment
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| Number of Packets | Cache Size |
+| :---              |       ---: |
+|        512        |     64     |
+|        768        |     168    |
+|        1024       |     256    |
