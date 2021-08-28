@@ -17,3 +17,10 @@ We have two independent variables in our experiment. The possible values of thes
 |        768        |     168    |
 |        1024       |     256    |
 
+## Experiment Results
+
+| Cache Size | 512 packets | 768 packets |  1024 packets |
+|    ---     | ---         | ---         | ---           |
+| `64`       | 56.98       | 52.08       | 47.94         |
+| `128`      | 68.32       | 62.72       | 58.16         |
+| `256`      | 74.14       | 69.4        | 66.8          |
