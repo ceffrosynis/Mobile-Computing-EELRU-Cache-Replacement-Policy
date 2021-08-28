@@ -6,4 +6,4 @@ Cache replacement policy plays a vital role to improve the performance in a cach
 The idea behind this algorithm is to improve the performance of the LRU cache replacement policy.
 
 ## Technical Overview
-In case of LRU fails in packets it recently expelled, EELRU recognizes it and instead of expelling the LRU packet does "early eviction ", that is, it expels a packet that we recently referenced from the LRU in the hope that by keeping the older packets they will be referenced again soon
+In the case of LRU fails in packets it recently expelled, EELRU recognizes it and instead of expelling the LRU packet, does an "early eviction", by expelling a packet that we recently referenced from the LRU, in the hope that by keeping the older packets, they will be referenced again soon.
