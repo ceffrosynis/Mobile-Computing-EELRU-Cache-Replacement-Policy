@@ -14,3 +14,19 @@ In the case of LRU fails in packets it recently expelled, EELRU recognizes it an
 |        512        |     64     |
 |        768        |     168    |
 |        1024       |     256    |
+
+<table>
+<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><td>
+
+|Table 1| Middle | Table 2|
+|--|--|--|
+|a| not b|and c |
+
+</td><td>
+
+|b|1|2|3| 
+|--|--|--|--|
+|a|s|d|f|
+
+</td></tr> </table>
