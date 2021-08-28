@@ -24,3 +24,5 @@ We have two independent variables in our experiment. The possible values of thes
 | `64`       | 56.98       | 52.08       | 47.94         |
 | `128`      | 68.32       | 62.72       | 58.16         |
 | `256`      | 74.14       | 69.4        | 66.8          |
+
+![alt text](https://github.com/ceffrosynis/Mobile-Computing-EELRU-Cache-Replacement-Policy/blob/main/hitRate.png)
