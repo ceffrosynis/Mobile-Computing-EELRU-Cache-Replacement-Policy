@@ -9,22 +9,7 @@ The idea behind this algorithm is to improve the performance of the LRU cache re
 In the case of LRU fails in packets it recently expelled, EELRU recognizes it and instead of expelling the LRU packet, does an "early eviction", by expelling a packet that we recently referenced from the LRU, in the hope that by keeping the older packets, they will be referenced again soon.
 
 ## Experiment
-
-<table>
-<tr><th> Number of Packets </th><th> Cache Size </th></tr>
-<tr><td>
-
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
-
-</td><td>
-
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
-</td></tr> </table>
+We have two independent variables in our experiment. The possible values of these two variables are shown in the table below.
 
 | Number of Packets | Cache Size |
 |       :---:        |    :---:    |
